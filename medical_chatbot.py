@@ -20,7 +20,7 @@ def get_vectorstore():
     db=FAISS.load_local(DB_FAISS_PATH,embedding_model,allow_dangerous_deserialization=True)
     return db
 
-
+HF_TOKEN=os.environ.get("HF_TOKEN")
 HF_REPO_ID="HuggingFaceH4/zephyr-7b-beta"
 
 
