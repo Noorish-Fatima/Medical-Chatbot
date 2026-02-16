@@ -8,10 +8,8 @@ from langchain_classic.chains.combine_documents import create_stuff_documents_ch
 from langchain_community.vectorstores import FAISS
 from tabulate import tabulate
 
-# setting up LLM(Mistral with Huggingface)
-#HF_TOKEN=os.environ.get("HF_TOKEN")
-HF_TOKEN="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"
-#HF_REPO_ID="mistralai/Mistral-7B-Instruct-v0.3"
+# setting up LLM(zephyr with Huggingface)
+HF_TOKEN=os.environ.get("HF_TOKEN")
 HF_REPO_ID="HuggingFaceH4/zephyr-7b-beta"
 
 def load_llm(hf_repo_id):
