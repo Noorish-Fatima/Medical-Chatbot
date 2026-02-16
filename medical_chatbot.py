@@ -21,8 +21,6 @@ def get_vectorstore():
     return db
 
 
-HF_TOKEN="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"
-#HF_REPO_ID="mistralai/Mistral-7B-Instruct-v0.3"
 HF_REPO_ID="HuggingFaceH4/zephyr-7b-beta"
 
 
