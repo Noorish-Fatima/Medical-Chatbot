@@ -9,7 +9,7 @@ from langchain_classic.chains.retrieval import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores import FAISS
 
-
+# db selection
 # DB_FAISS_PATH="vectorstore/db_faiss"
 BASE_DIR=os.path.dirname(os.path.abspath(__file__))
 DB_FAISS_PATH=os.path.join(BASE_DIR,'vectorstores','db_faiss')
